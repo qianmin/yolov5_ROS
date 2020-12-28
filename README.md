@@ -8,7 +8,7 @@ this is and successfull ros package，which can run YOLOv5 in ROS
 ④yolov5s.pth or else ***(if you dont't have it,it will automatically donwload to your system)***
 
 # 2:before run
-1:copy this package to your catkin_ws/src  
+1:copy this package(ros_yolo) to your catkin_ws/src  
 2:catkin_make  
 3:in final_yolo.py, you need to change the image_topic to your own camera input topic  
 
