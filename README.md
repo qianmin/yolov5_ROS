@@ -7,12 +7,13 @@ this is and successfull ros package，which can run YOLOv5 in ROS
 ③basic usb_cam ROS_driver  
 ④yolov5s.pth or else ***(if you dont't have it,it will automatically donwload to your system)***
 
-# 2:command to run
-**copy this package to your catkin_ws/src  
-and then catkin_make  
-(in fact ,this python paakage dont need to build at all)**
+# 2:before run
+**1:copy this package to your catkin_ws/src  
+2:catkin_make  
+3:in final_yolo.py, you need to change the image_topic to your own camera input topic  
+**
 
-***in final_yolo.py, you need to change the image_topic to your own camera input topic***
+# 3:command to run
 ```
 1:roscore
 2:rosrun usb_cam usb_cam  
