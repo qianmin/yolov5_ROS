@@ -10,7 +10,5 @@ run YOLOv5 in ROS
 ```
 roscore
 rosrun usb_cam usb_cam  
-
 rosrun ros_yolo final_detect.py  
-
 ```
