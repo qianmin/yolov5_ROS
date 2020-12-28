@@ -22,6 +22,6 @@ this is and successfull ros package，which can run YOLOv5 in ROS
 4:rosrun ros_yolo final_yolo.py  
 ```
 # 4:results
-![](https://raw.githubusercontent.com/qianmin/yolov5_ROS/main/readme/yolo.png)
+![yolo](./readme/yolo.png)
 
 
