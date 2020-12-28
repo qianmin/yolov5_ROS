@@ -1,0 +1,36 @@
+rosrun ros_yolo detect.py --source 0 --weights yolov5s.pt
+rosrun ros_yolo detect.py --source 1 --weights yolov5s.pt
+rosrun ros_yolo qm_yolo.py --source 1 --weights yolov5s.pt
+rosrun ros_yolo detect.py --source /home/qm/ros_learn/py3_yolo/src/ros_yolo/scripts/huge.jpg --weights yolov5s.pt
+rosrun ros_yolo mydetect_form.py --source 0 --weights yolov5s.pt
+rosrun ros_yolo mydetect_form_simple.py --source 0 --weights yolov5s.pt
+
+rosrun ros_yolo detect.py --source qm2.mp4 --weights yolov5s.pt
+
+
+#默认
+python detect.py --source 0 --weights yolov5s.pt
+python mydetect_form.py --source 0 --weights yolov5s.pt
+
+python detect.py --source 0 --weights yolov5s.pt --classes 0 --conf-thres 0.5
+
+python detect.py --source gta.mp4 --weights yolov5s.pt --classes 0 2 --conf-thres 0.5 --view-img
+
+python detect.py --source car.mp4 --weights yolov5s.pt --classes 0 2 --conf-thres 0.5 --view-img
+
+python detect.py --source road.mp4 --weights yolov5s.pt --classes 0 1 2 3 5 7 --conf-thres 0.3 --view-img
+
+python detect.py --source road.mp4 --weights yolov5s.pt --classes 0 2 --conf-thres 0.2 --view-img
+
+python detect.py --source road.mp4 --weights yolov5s.pt --classes 0 2 --conf-thres 0.05 --view-img
+
+python detect.py --source road.mp4 --weights yolov5s.pt --classes 0 2 --conf-thres 0.5 --view-img
+
+python detect.py --source gta.mp4 --weights yolov5s.pt --classes 0 2 --conf-thres 0.1 --view-img
+
+python detect.py --source cheku.mp4 --weights yolov5s.pt --classes 0 2 --conf-thres 0.4 --view-img
+
+python detect.py --source cheku.mp4 --weights yolov5s.pt --classes 0 1 2 3 5 7 --conf-thres 0.1 --view-img
+
+python detect.py --source road.mp4 --weights yolov5x.pt --classes 0 1 2 3 5 7 --conf-thres 0.3 --view-img
+权重由官网下载，否则报错。
