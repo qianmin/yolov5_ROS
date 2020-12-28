@@ -1,5 +1,9 @@
 # yolov5_ROS
 this is and successfull ros package，which can run YOLOv5 in ROS 
+more:
+yolo_ros
+yolov5_ros
+yolo5_ros
 
 # 1:requirements
 ①an conda env called yolo,in which you can run yolov5 dependently  
