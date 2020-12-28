@@ -8,9 +8,9 @@ this is and successfull ros package，which can run YOLOv5 in ROS
 ④yolov5s.pth or else ***(if you dont't have it,it will automatically donwload to your system)***
 
 # command to run
-**copy this package to your catkin_ws/src
-and then catkin_make
-(in fact ,this python paakage dont need to build at all)
+**copy this package to your catkin_ws/src  
+and then catkin_make  
+(in fact ,this python paakage dont need to build at all)**
 ```
 1:roscore
 2:rosrun usb_cam usb_cam  
