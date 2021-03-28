@@ -18,7 +18,7 @@ this is and successfull ros package，which can run YOLOv5 in ROS
 ```
 1:roscore
 2:rosrun usb_cam usb_cam_node  
-3:yolo                               #enter into your conda env
+3:conda activate yolo                               #enter into your conda env
 4:rosrun ros_yolo final_yolo.py  
 ```
 # 4:results
