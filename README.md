@@ -5,9 +5,9 @@ this is and successfull ros package，which can run YOLOv5 in ROS
 # 1:requirements
 ①an conda env called yolo,in which you can run yolov5 dependently  
 
-②ROS kinetic, ubuntu16.04  
+②any ROS,any Ubuntu 
 
-③basic usb_cam ROS_driver  
+③basic usb_cam ROS_driver  (ros自带）
 
 ④yolov5s.pth or else ***(if you dont't have it,it will automatically donwload to your system)***
 
