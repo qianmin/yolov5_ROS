@@ -7,7 +7,8 @@ this is and successfull ros package，which can run YOLOv5 in ROS
 ②ROS kinetic, ubuntu16.04  
 ③basic usb_cam ROS_driver  
 ④yolov5s.pth or else ***(if you dont't have it,it will automatically donwload to your system)***
-⑤ pip install rospy  (安装ros与python的接口，这就是为什么无关的原因）
+
+⑤pip install rospy  (安装ros与python的接口，这就是为什么无关的原因）
 
 # 2:before run
 ```
