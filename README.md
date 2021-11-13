@@ -30,4 +30,13 @@ this is and successfull ros package，which can run YOLOv5 in ROS
 # 4:results
 ![yolo](./readme/yolo.png)
 
+#5 修改要识别的类型
+```
+用的是final_yolo.py 文件来识别
+修改93行：
+classes = (0,1,2,3,5,7)
+
+[yolo类别对应表]https://blog.csdn.net/Dreaming_of_you/article/details/102756445
+```
+
 
